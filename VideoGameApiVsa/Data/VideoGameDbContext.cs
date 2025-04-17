@@ -7,6 +7,7 @@ namespace VideoGameApiVsa.Data
     {
         public VideoGameDbContext(DbContextOptions<VideoGameDbContext> options) : base(options)
         {
+
         }
 
         public DbSet<VideoGame> VideoGames { get; set; } 
