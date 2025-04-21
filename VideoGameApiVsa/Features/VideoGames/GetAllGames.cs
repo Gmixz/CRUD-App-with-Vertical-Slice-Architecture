@@ -1,10 +1,7 @@
 ﻿using MediatR;
-using Microsoft.AspNetCore.Components;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using VideoGameApiVsa.Data;
-using VideoGameApiVsa.Entities;
-using static VideoGameApiVsa.Features.VideoGames.GetAllGames;
 
 namespace VideoGameApiVsa.Features.VideoGames
 {
